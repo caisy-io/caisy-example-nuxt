@@ -32,7 +32,7 @@ export default defineEventHandler(async (event) => {
     { slug: params.slug }
   );
 
-  console.log(data);
+  console.log("data: ", data);
 
-  return { document: data?.allBlogArticle?.edges?.[0]?.node };
+  return data?.allBlogArticle?.edges?.[0]?.node;
 });

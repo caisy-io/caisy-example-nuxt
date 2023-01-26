@@ -716,7 +716,7 @@ export default {
 
 <template>
   <div>
-    <NuxtLink href="/vuejs-example">See the example!</NuxtLink>
+    <NuxtLink href="/blog/vuejs-example">See the example!</NuxtLink>
     <!-- <RichtextRenderer :node="node.json" /> -->
     <!-- <NuxtWelcome /> -->
   </div>
