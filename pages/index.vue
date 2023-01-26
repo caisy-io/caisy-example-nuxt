@@ -1,4 +1,4 @@
-<script>
+<script lagn="ts">
 import { RichtextRenderer } from "@caisy/rich-text-vue-renderer";
 
 const AllInOneSampleText = {
@@ -716,6 +716,8 @@ export default {
 
 <template>
   <div>
-    <RichtextRenderer :node="node.json" />
+    <NuxtLink href="/vuejs-example">See the example!</NuxtLink>
+    <!-- <RichtextRenderer :node="node.json" /> -->
+    <!-- <NuxtWelcome /> -->
   </div>
 </template>
