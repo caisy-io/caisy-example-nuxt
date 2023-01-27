@@ -1,12 +1,10 @@
 <template>
-  <RichtextRenderer
-    v-if="data?.text && data?.text?.json"
-    :node="data.text.json"
-  />
+  <div v-if="data?.text && data?.text?.json">
+    <h1>{{ data.title }}</h1>
+    <RichtextRenderer :node="data.text.json" />
+  </div>
   <div v-else>
-    <h1>
-      Document with slug <em>"{{ route.params.slug }}"</em> was not found
-    </h1>
+    <h1>Loading...</h1>
   </div>
 </template>
 
