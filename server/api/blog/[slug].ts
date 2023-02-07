@@ -32,7 +32,5 @@ export default defineEventHandler(async (event) => {
     { slug: params.slug }
   );
 
-  console.log("data: ", data);
-
   return data?.allBlogArticle?.edges?.[0]?.node;
 });

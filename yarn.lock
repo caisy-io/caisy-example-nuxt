@@ -277,10 +277,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@caisy/rich-text-vue-renderer@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@caisy/rich-text-vue-renderer/-/rich-text-vue-renderer-0.1.4.tgz#84d620050adaf9f202b401ab964496852758837c"
-  integrity sha512-+xPwr9gSRcdhAi3prdUXPE71osrpkEs5DCjGFxg3HMQz0MHY0LR9Vk1IwhLzU0BI0OWr2g/L1pACnOi+HGspxA==
+"@caisy/rich-text-vue-renderer@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@caisy/rich-text-vue-renderer/-/rich-text-vue-renderer-0.2.1.tgz#fe5614e53fc8b972258943f41932de35f49bc5e4"
+  integrity sha512-pilc4KQyXYdeiLht9P7mEw0hjOu/ZvxjVQywqZ5S84bsxiY5sEOxsWI9kByzdkhhM4V8aECCI6fn+xqcWv2KMQ==
 
 "@cloudflare/kv-asset-handler@^0.3.0":
   version "0.3.0"

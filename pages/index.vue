@@ -1,8 +1,8 @@
 <script lagn="ts">
-import { RichtextRenderer } from "@caisy/rich-text-vue-renderer";
+import { RichTextRenderer } from "@caisy/rich-text-vue-renderer";
 
 export default {
-  components: { RichtextRenderer },
+  components: { RichTextRenderer },
 };
 </script>
 
