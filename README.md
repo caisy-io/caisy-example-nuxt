@@ -1,5 +1,7 @@
 # Nuxt 3 Minimal Starter
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/caisy-io/caisy-example-nuxt)
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup

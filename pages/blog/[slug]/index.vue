@@ -4,9 +4,7 @@
     <RichTextRenderer :node="data.text.json" />
   </div>
   <div v-else>
-    <h1>
-      Document with slug <em>"{{ route.params.slug }}"</em> was not found
-    </h1>
+    <h1>Loading...</h1>
   </div>
 </template>
 
