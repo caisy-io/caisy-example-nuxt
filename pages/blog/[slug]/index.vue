@@ -8,8 +8,8 @@
   </div>
 </template>
 
-<script setup>
-import { RichTextRenderer } from "@caisy/rich-text-vue-renderer";
+<script lang="ts" setup>
+import { RichTextRenderer } from '@caisy/rich-text-vue-renderer';
 const route = useRoute();
 
 const { data } = useFetch(`/api/blog/${route.params.slug}`);
